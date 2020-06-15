@@ -1,0 +1,232 @@
+// Custom Styles
+
+.footer {
+  display: block;
+  background-color: rgb(220, 220, 220);
+  width: 100%;
+  font-size: 16px;
+  min-height: 40px;
+  text-align: center;
+  padding: 10px; }
+
+.main-container {
+  min-height: 400px;
+}
+
+.add-margin {
+  margin: 4px 8px;
+}
+
+.choice {
+  border: 1px solid green;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: -4px;
+}
+
+.mark-box {
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.correct {
+  border: 1px solid green;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: -4px;
+}
+
+.incorrect {
+  border: 1px solid red;
+  padding: 4px;
+  border-radius: 4px;
+  margin-left: -4px;
+}
+
+.question {
+  background-color: white;
+  padding: 10px;
+  min-height: 50px
+}
+
+  .myClass, .mySubject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px; 
+  }
+
+  .myClass-item, .mySubject-item {
+    margin-bottom: 20px;
+    padding: 5px 2px 20px 2px;
+    text-align: center;
+    flex: 0 0 30%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-left: 3px solid;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .myClass-item p {
+    color: rgb(50, 50, 50) !important;
+  }
+
+  .myClass-item h3 {
+    border-bottom: 1px solid;
+  }
+
+  .myClass-item:nth-child(6n+1) {
+    border-color: rgb(16, 160, 182);
+    color: rgb(16, 160, 182);
+  }
+
+  .myClass-item:nth-child(6n+2) {
+    border-color: rgb(243, 147, 23);
+    color: rgb(243, 147, 23);
+  }
+
+  .myClass-item:nth-child(6n+3) {
+    border-color: rgb(66, 174, 24);
+    color: rgb(66, 174, 24);
+  }
+
+  .myClass-item:nth-child(6n+4) {
+    border-color: rgb(215, 71, 38);
+    color: rgb(215, 71, 38);
+  }
+
+  .myClass-item:nth-child(6n+5) {
+    border-color: rgb(0, 161, 222);
+    color: rgb(0, 161, 222);
+  }
+
+  .myClass-item:nth-child(6n+6) {
+    border-color: rgb(141, 51, 170);
+    color: rgb(141, 51, 170);
+  }
+
+  @media(max-width: 550px)
+  {
+    .myClass-item {
+      flex: 0 0 100%;
+    }
+
+    .mySubject-item {
+      flex: 0 0 100%;
+    }
+  }
+
+  @media(min-width: 551px) and (max-width: 800px)
+  {
+    .myClass-item {
+      flex: 0 0 45%;
+    }
+
+    .mySubject-item {
+      flex: 0 0 45%;
+    }
+  }
+
+  .mySubject {
+    background-color: rgb(231, 250, 255);
+  }
+
+  .mySubject-item {
+    border-left: 1px solid;
+    border-top: 3px solid;
+  }
+
+  .mySubject-item:nth-child(8n+1) {
+    border-color: rgb(16, 170, 182);
+    color: rgb(16, 170, 182);
+  }
+
+  .mySubject-item:nth-child(8n+2) {
+    border-color: rgb(243, 157, 23);
+    color: rgb(243, 157, 23);
+  }
+
+  .mySubject-item:nth-child(8n+3) {
+    border-color: rgb(66, 184, 24);
+    color: rgb(66, 184, 24);
+  }
+
+  .mySubject-item:nth-child(8n+4) {
+    border-color: rgb(215, 81, 38);
+    color: rgb(215, 81, 38);
+  }
+
+  .mySubject-item:nth-child(8n+5) {
+    border-color: rgb(0, 171, 222);
+    color: rgb(0, 171, 222);
+  }
+
+  .mySubject-item:nth-child(8n+6) {
+    border-color: rgb(141, 61, 170);
+    color: rgb(141, 61, 170);
+  }
+
+  .mySubject-item:nth-child(8n+7) {
+    border-color: rgb(66, 184, 24);
+    color: rgb(66, 184, 24);
+  }
+
+  .mySubject-item:nth-child(8n+8) {
+    border-color: rgb(243, 157, 23);
+    color: rgb(243, 157, 23);
+  }
+
+  .myIntro-box1, .myIntro-box2 {
+    width: 100%;
+    position: relative;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+  }
+
+  .myIntro-box1 {
+    border: 1px solid rgb(141, 61, 170);
+  }
+
+  .myIntro-box2 {
+    border: 1px solid rgb(243, 147, 23);
+  }
+
+  .myMessage {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgb(200, 255, 200);
+    padding: 10px;
+    color: rgb(66, 174, 24);
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .myIntro-box1 h2, .myIntro-box2 h2 {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .myIntro-box1 h2 {
+      color: rgb(141, 61, 170);
+  }
+
+  .myIntro-box2 h2 {
+      color: rgb(243, 147, 23);
+  }
+
+  .myIntro-box1 p, .myIntro-box2 p {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }
